@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* 웹폰트 CSS */
+@font-face {
+    font-family: '강원교육';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff');
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html,
+body {
+    min-width: 360px;
+    font-size: 14px;
+    background-color: white;
+    color: #333;
+}
+
+.clear_fix::before,
+.clear_fix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
